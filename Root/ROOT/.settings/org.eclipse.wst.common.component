@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ROOT">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-fileupload-1.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3.1/commons-fileupload-1.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.3.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xmlbeans-2.3.0/xmlbeans-2.3.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-examples-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-examples-3.9/poi-examples-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/stax-api-1.0.1/stax-api-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.4/commons-io-2.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-scratchpad-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-scratchpad-3.9/poi-scratchpad-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.33-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.33-bin/mysql-connector-java-5.1.33-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-schemas-3.9/poi-ooxml-schemas-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-excelant-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-excelant-3.9/poi-excelant-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-3.9/poi-ooxml-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6/dom4j-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqljdbc4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/sqljdbc4/sqljdbc4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-3.9/poi-3.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ROOT"/>
+        <property name="java-output-path" value="/ROOT/build/classes"/>
+    </wb-module>
+</project-modules>
